@@ -3,7 +3,7 @@
 
 Name:		gr-osmosdr
 Version:	0.2.6
-Release:	1
+Release:	2
 Source0:	https://github.com/osmocom/gr-osmosdr/archive/v%{version}/%{name}-%{version}.tar.gz
 Summary:	Generic gnuradio SDR I/O block
 URL:		https://osmocom.org/projects/gr-osmosdr/wiki/GrOsmoSDR
