@@ -4,11 +4,11 @@
 Name:		gr-osmosdr
 Version:	0.2.6
 Release:	3
-Source0:	https://github.com/osmocom/gr-osmosdr/archive/v%{version}/%{name}-%{version}.tar.gz
 Summary:	Generic gnuradio SDR I/O block
-URL:		https://osmocom.org/projects/gr-osmosdr/wiki/GrOsmoSDR
 License:	GPL-3.0-or-later
 Group:		Communications/Radio
+URL:		https://osmocom.org/projects/gr-osmosdr/wiki/GrOsmoSDR
+Source0:	https://github.com/osmocom/gr-osmosdr/archive/v%{version}/%{name}-%{version}.tar.gz
 Patch0:		gr-osmosdr-remove-boost-system.patch
 
 BuildSystem:	cmake
