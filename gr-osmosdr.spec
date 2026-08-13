@@ -3,7 +3,7 @@
 
 Name:		gr-osmosdr
 Version:	0.2.6
-Release:	3
+Release:	4
 Summary:	Generic gnuradio SDR I/O block
 License:	GPL-3.0-or-later
 Group:		Communications/Radio
