@@ -1,5 +1,0 @@
-# upstream issue
-addFilter("incorrect-fsf-address")
-# packages comes with docs
-addFilter("no-manual-page-for-binary")
-addFilter("non-versioned-file-in-library-package")

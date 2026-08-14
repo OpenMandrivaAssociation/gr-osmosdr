@@ -9,7 +9,6 @@ License:	GPL-3.0-or-later
 Group:		Communications/Radio
 URL:		https://osmocom.org/projects/gr-osmosdr/wiki/GrOsmoSDR
 Source0:	https://github.com/osmocom/gr-osmosdr/archive/v%{version}/%{name}-%{version}.tar.gz
-Source100:	%{name}.rpmlintrc
 Patch0:		gr-osmosdr-remove-boost-system.patch
 Patch1:		gr-osmosdr-0.2.6-fix-locating-uhd-4.10.patch
 
@@ -114,7 +113,7 @@ Documentation for %{name} module for GNU Radio.
 export CFLAGS="%{optflags} -Wno-dev"
 export LDFLAGS="%{ldflags} -lpython%{pyver}"
 %cmake \
-	-DGR_PKG_DOC_DIR=%{buildroot}%{_docdir}/%{name} \
+	-DGR_PKG_DOC_DIR=%{_docdir}/%{name} \
 	-DENABLE_DOXYGEN=ON \
 	-DENABLE_PYTHON=ON \
 	-DENABLE_FREESRP=OFF \
