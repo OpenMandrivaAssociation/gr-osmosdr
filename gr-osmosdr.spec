@@ -14,8 +14,6 @@ Patch1:		gr-osmosdr-0.2.6-fix-locating-uhd-4.10.patch
 
 BuildSystem:	cmake
 BuildRequires:	cmake
-BuildRequires:	cmake(funcube)
-BuildRequires:	cmake(gnuradio-iqbalance)
 BuildRequires:	boost-devel
 BuildRequires:	doxygen
 BuildRequires:	gnuradio-pmt-devel
@@ -116,6 +114,8 @@ export LDFLAGS="%{ldflags} -lpython%{pyver}"
 	-DGR_PKG_DOC_DIR=%{_docdir}/%{name} \
 	-DENABLE_DOXYGEN=ON \
 	-DENABLE_PYTHON=ON \
+	-DENABLE_FCD=OFF \
+	-DENABLE_IQBALANCE=OFF \
 	-DENABLE_FREESRP=OFF \
 	-DENABLE_UHD=ON \
 	-DENABLE_XTRX=OFF \
